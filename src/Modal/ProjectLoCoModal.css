@@ -1,0 +1,125 @@
+
+/* MODAL */
+.project-detail-modal .modal-content {
+  background: #0f172a;
+  color: #94a3b8;
+  border: 1px solid #334155;
+  border-radius: 12px;
+}
+
+.project-detail-modal .modal-header {
+  padding: 24px 30px;
+  border-bottom: 1px solid #334155;
+}
+
+.project-detail-modal .modal-body {
+  padding: 30px;
+}
+
+.project-detail-modal .btn-close {
+  filter: invert(1);
+}
+
+/* HEADER */
+.project-modal-heading .modal-title {
+  color: #e2e8f0;
+  font-weight: 700;
+}
+
+.project-modal-heading p {
+  margin: 8px 0 0;
+  color: #94a3b8;
+}
+
+/* SECTIONS */
+.project-modal-section {
+  margin-bottom: 35px;
+}
+
+.project-modal-section:last-child {
+  margin-bottom: 0;
+}
+
+.project-modal-section h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  color: #e2e8f0;
+  font-weight: 600;
+}
+
+.project-modal-section h3 svg {
+  color: #5eead4;
+}
+
+.project-modal-section p {
+  margin-bottom: 12px;
+  color: #94a3b8;
+  line-height: 1.8;
+}
+
+/* LIST */
+.project-detail-list {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.project-detail-list li {
+  margin-bottom: 12px;
+  color: #94a3b8;
+  line-height: 1.8;
+}
+
+.project-detail-list li::marker {
+  color: #5eead4;
+}
+
+.project-detail-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* ARCHITECTURE */
+.project-info-box {
+  height: 100%;
+  padding: 18px;
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid #334155;
+  border-radius: 8px;
+}
+
+.project-info-box strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #e2e8f0;
+}
+
+.project-info-box p {
+  margin: 0;
+}
+
+/* TECHNOLOGIES */
+.project-modal-tech {
+  padding: 8px 12px;
+  background: rgba(45, 212, 191, 0.1) !important;
+  color: #5eead4 !important;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 575px) {
+  .project-detail-modal .modal-header,
+  .project-detail-modal .modal-body {
+    padding: 20px;
+  }
+
+  .project-modal-heading .modal-title {
+    font-size: 20px;
+  }
+
+  .project-modal-section {
+    margin-bottom: 28px;
+  }
+}
