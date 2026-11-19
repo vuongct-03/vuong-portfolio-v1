@@ -1,3 +1,5 @@
+import { ExternalLink } from "lucide-react";
+
 export default function About (){
     return (
         <>         
@@ -37,6 +39,10 @@ export default function About (){
                 Ngoài lập trình, mình thích chơi bóng đá,
                 tập gym, nghe nhạc indie và khám phá
                 những quán cà phê.
+              </p>
+              <p>
+                <strong>Github: </strong>
+                <a style={{color: "#5eead4"}} href="https://github.com/vuongct-03/vuong-portfolio-v1" target="_blank" rel="noopener noreferrer">My porfolio <ExternalLink size={14} /></a>
               </p>
             </section>
         </>
