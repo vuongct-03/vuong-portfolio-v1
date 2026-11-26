@@ -15,7 +15,7 @@ export default function Intro() {
         Chế Vương
       </a>
         <p className="mt-2"></p>
-        <p>SĐT: 0346297372</p>
+        <p>Zalo: 0346297372</p>
         <p>email: vuongvuong2807@gmail.com</p>
       <h2 className="portfolio-position">
         Fullstack Developer
